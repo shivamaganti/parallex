@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.6;
+    background-color:#282e34;
+  }
+  .img1, .img2, .img3, .img4{
+    position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  }
+  .img1{
+    background-image:url('https://images.wallpaperscraft.com/image/street_road_traffic_130216_2560x1440.jpg');
+    width: 100%;
+    min-height: 500px; 
+  }
+  .img2{
+    background-image:url('https://getwallpapers.com/wallpaper/full/2/1/0/852511-gorgerous-light-bulb-hd-wallpapers-3840x2160-for-android-50.jpg');
+    width: 100%;
+    min-height: 500px; 
+  }
+  .img3{
+    background-image:url('https://i.pinimg.com/originals/49/a7/45/49a745cd8df423dbc062098b83d676b2.jpg');
+    width: 100%;
+    min-height: 500px; 
+  }
+  .img4{
+    background-image:url('https://images.wallpaperscraft.com/image/street_road_traffic_130216_2560x1440.jpg');
+    width: 100%;
+    min-height: 500px; 
+  }
+  @media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+ .text{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.text .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+#three{
+    padding: 15px;
+    background-color:#282e34;
+  color:#ddd;
+    text-align: center;
+    margin: 70px;
+    font-size: 15px;
+}
+
+#five{
+    padding: 15px;
+    background-color:#282e34;
+  color:#ddd;
+    text-align: center;
+    margin: 70px;
+    font-size: 15px;
+}
